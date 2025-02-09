@@ -1,0 +1,417 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#page1{
+    background-color:#283618;
+}
+#nav-item{
+    margin-left:40%;
+    gap:10%;
+}
+.nav-link{
+    color:#FEFAE0;
+    width: max-content;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size:larger;
+    margin-top: 15px;
+}
+
+.nav-link:hover{
+    color:#FEFAE0;
+    
+}
+#home{
+  position:absolute;
+}
+#about{
+  position:absolute;
+}
+#services{
+  position:absolute;
+}
+#contact-us{
+  position:absolute;
+}
+#icon-1{
+    color: #606c3869; 
+    margin-left:1%;
+    margin-top:-15%;
+}
+#btn{
+    border:1px solid #dda15e;
+    color:#dda15e;
+    font-weight: 700;
+    margin:20px;
+    margin-top:20px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 900;
+    transition:all 0.5s ease-in;
+}
+#btn:hover{
+    background-color:#dda15e;
+    color:#283618;
+}
+#line{
+    border:1px solid #f1f1f1;
+}
+#text-box{
+    margin-top: 20%;
+    font-size: 20px;
+    color:#dda15e;
+}
+#think{
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#soul{
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#welcome{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size:65px;
+    color:#f1f1f1;
+}
+
+#shop-now{
+  border:2px solid #606C38;
+  color:#606C38;
+  font-weight:700;
+  font-family: "DM Serif Text", serif;
+}
+#shop-now:hover{
+  background-color: #606C38;
+  color:#283618;
+}
+
+#bg-motion{
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+    
+  }
+#illustrator {
+    position: absolute; 
+    left: 20%;
+    transform: translateX(-50%); 
+    z-index: 1; 
+    width:50%;
+  
+   
+  }
+  
+#page2{
+ background-color:#2836183f;
+ height: auto;
+ 
+}
+
+  @keyframes animate-bg {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh); /* Move downward instead of upward */
+    }
+  }
+  
+  #animation-container {
+    height: 100vh;
+    background-color: #2836189a; 
+    overflow: hidden; 
+    position: relative; 
+   
+
+  }
+  
+  .motion-bg {
+    position: absolute; /* Ensure absolute positioning */
+    height: 33%;
+    width: 50%;
+    left: 25%; 
+    top: -33%; /* Start above the container */
+    background-color: #dda25e5e; /* Default background color */
+    border-radius: 114px;
+    animation: animate-bg 3s infinite linear;
+  }
+  
+  #motion-bg1 {
+    background-color: #dda25e9d;
+    animation-delay: 0s; /* Start immediately */
+  }
+  
+  #motion-bg2 {
+    background-color: #bc6b25b0;
+    animation-delay: 1s; /* Staggered start */
+  }
+  
+  #motion-bg3 {
+    background-color: #606c38a9;
+    animation-delay: 2s; /* Staggered start */
+  }
+ #box-about{
+  opacity:1;
+  color:#283618;
+  
+ }
+ #box-about h1{
+  margin-top:10%;
+  font-size:4rem;
+  animation-name:pan;
+  animation-duration:1s;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ #box-about p{
+  margin-top:30%;
+  font-size: larger;
+ }
+ #donut {
+  pointer-events:painted; 
+  width:45rem;
+  height:35rem;
+  margin-left: 20%;
+  margin-top: 20%;
+  max-width:50%;
+}
+ #page3{
+    background-color:#606C38;
+ }
+ #collection h1{
+  color:#dda15e;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+  margin-top: 3%;
+ }
+ #collection-icon{
+  width:60%;
+ 
+ }
+
+ #eyewear{
+  color:white;
+  margin-left: 12%;
+  margin-top: 8%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+}
+#tops{
+  color:white;
+  margin-left:15%;
+  margin-top: 8%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+}
+#outerwear{
+  color:white;
+  margin-left:15%;
+  margin-top: 8%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+}
+#pants{
+  color:white;
+  margin-left:15%;
+  margin-top: 8%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+}
+#socks{
+    color:white;
+    margin-left:15%;
+    margin-top: 8%;
+    font-size: medium;
+    font-weight:700;
+    font-family: "Roboto", serif;
+}
+#bags{
+    color:white;
+    margin-left:15%;
+    margin-top: 8%;
+    font-size: medium;
+    font-weight:700;
+    font-family: "Roboto", serif;
+}
+ #page4{
+  background-color:#283618;
+ }
+#customer-image{
+  margin-left: 35%;
+  margin-right: 35%;
+ width:30%;
+}
+#customer-service{
+  margin-top:8%;
+  color:#f1f1f1;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#dda15e;
+  font-size:3rem;
+}
+#sizes,#returns ,#terms{
+  margin-top:13%;
+}
+#sizes h2{
+  color:#f1f1f1;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#sizes p{
+  color:#f1f1f1;
+  font-size: 20px;
+}
+#returns h2{
+  color:#f1f1f1;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#returns p{
+  color:#f1f1f1;
+  font-size: 20px;
+}
+#terms h2{
+  color:#f1f1f1;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#terms p{
+  color:#f1f1f1;
+  font-size: 20px;
+}
+#page5{
+  background-color:#606C38;
+}
+#customer-1,#returns ,#terms{
+  margin-top:13%;
+}
+#customer-1 p{
+  color:#dda15e;
+}
+#star{
+  margin-left:30%;
+}
+#star,#star2,#star3,#star4,#star5{
+ font-size:2rem;
+}
+#name{
+  margin-left:37%;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#des,#des2,#des3{
+ font-size:1rem;
+}
+
+#page6{
+  background-color:#283618;
+}
+
+#faq{
+  font-size:3rem;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#dda15e;
+}
+#ord{
+margin-top:15%;
+font-size: medium;
+font-weight:700;
+font-family: "Roboto", serif;
+}
+
+#ord2{
+  margin-top:15%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+  }
+
+#ord3{
+  margin-top:15%;
+  font-size: medium;
+  font-weight:700;
+  font-family: "Roboto", serif;
+    }
+
+#page7{
+  background-color: #606C38;
+  width:100vw;
+  
+}
+#brand{
+ color:#dda15e;
+ margin-bottom:40%;
+ font-size:8rem;
+ font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#brand-name{
+  color:#dda15e;
+  font-size:2rem;
+}
+
+#brand-name2{
+  color:#dda15e;
+  font-size:2rem;
+}
+#brand-img{
+  width:130%;
+  margin-left:-10%;
+}
+#page8{
+background-color: #283618;
+}
+#page8 h1{
+  color:#dda15e;
+}
+#connect-page{
+  color:#dda15e;
+  font-size: medium;
+    font-weight:400;
+    font-family: "Roboto", serif;
+}
+#connect-heading{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#details{
+  margin-top:10%;
+}
+#whatsapp:hover {
+  transform: scale(1.5);
+} 
+#instagram:hover{
+  transform: scale(1.5);
+}
+#facebook:hover{
+  transform: scale(1.5);
+}

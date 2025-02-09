@@ -1,0 +1,381 @@
+@media only screen and (min-width:400px) and (max-width:768px){
+    #page1{
+        max-height:fit-content;
+    }
+    #page2{
+       height:auto;
+    }
+    #page4{
+        max-height:fit-content;
+    }
+    #icon-1{
+        display:none;
+    }
+    #line{
+        margin-top:50%;
+    }
+    #btn {
+          position: fixed;
+          bottom: 20px;
+          left:20%;
+          right:20%;
+          z-index: 1000;
+          width: 60%;
+          text-align: center;
+    }
+    #Toggle{
+     right:20px;
+     font-size: 10px;
+    }
+    #home{
+        font-size:15px;
+        position:relative;
+    }
+    #about{
+        font-size:15px;
+        position:relative;
+    }
+    #services{
+        font-size:15px;
+        position:relative;
+    }
+    #contact-us{
+        font-size:15px;
+        position:relative;
+    }
+    #text-box{
+        margin-top: 60%;
+        font-size: 14px;
+    }
+    #welcome{
+        font-size: 25px;
+    }
+    #bg-motion{
+        margin-top:90%;
+       }
+     #illustrator{
+        margin-top:50%;
+        width:50%
+     }
+     #motion-bg1{
+        height:33%;
+        width:80%;
+    }
+     #motion-bg2{
+        height:33%;
+        width:80%;
+    }
+   
+    #motion-bg3{
+            height:33%;
+            width:80%;
+    }
+    #donut{
+      margin-top: 0%;
+      max-width:40%;
+    }
+    #box-about h1{
+        font-size:15px;
+        margin-top:0;
+        position:relative;
+    }
+    #box-about p{
+        font-size:12px;
+        margin-top:10%;
+    }
+
+    #collection h1{
+        font-size: 20px;
+        margin-left: 3%;
+        margin-top: 3%;
+       }
+    #collection-icon{
+        margin-left: 10%;
+        margin-top: 5%;
+        width:30%;
+       }
+       #eyewear{
+        font-size:15px;
+        color:white;
+         margin-left:12%;
+         margin-top: 8%;
+       }
+       #tops{
+        font-size:15px;
+        color:white;
+        margin-left:15%;
+        margin-top: 8%;
+       }
+       #outerwear{
+        font-size:15px;
+        color:white;
+        margin-left:12%;
+        margin-top: 8%;
+       }
+       #pants{
+        font-size:15px;
+        color:white;
+        margin-left:12%;
+        margin-top: 8%;
+       }
+       #socks{
+        font-size:15px;
+        color:white;
+        margin-left:12%;
+        margin-top: 8%;
+       }
+       #bags{
+        font-size:15px;
+        color:white;
+        margin-left:12%;
+        margin-top: 8%;
+       }
+       #customer-service{
+        font-size:35px;
+       }
+       #sizes p{
+        font-size:15px;
+       }
+       #returns p{
+        font-size:15px;
+       }
+       #terms p{
+       font-size:15px;
+       }
+       #sizes,#returns,#terms{
+        height:40%;
+       }
+       #customer-1 {
+        font-size:0.9rem;
+      }
+      #star{
+        margin-left:35%;
+        font-size:0.3rem;
+      }
+      #star2{
+        font-size:0.3rem;
+      }
+      #star3{
+        font-size:0.3rem;
+      }
+      #star4{
+        font-size:0.3rem;
+      }
+      #star5{
+        font-size:0.3rem;
+      }
+     #brand{
+      font-size:4rem;
+     }
+     #brand-name{
+      font-size:1rem;
+    }
+     #brand-name2{
+      color:#dda15e;
+      font-size:1rem;
+    }
+    #connect-page{
+      padding-bottom:20%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1100px){
+    #text-box{
+        margin-top: 10%;
+    }
+    #donut{
+        margin-top:10%;
+    }
+    #btn {
+        left:20px;
+        position:absolute;    
+  }
+  #line{
+    margin-top:65px !important;
+  }
+  #connect-page{
+    padding-bottom:20%;
+  }
+ 
+}
+@media  screen and (min-width:0px) and (max-width:399px){
+  #donut{
+    margin-top: 0%;
+    max-width:40%;
+    height:25rem;
+  }
+  #page1{
+    max-height:fit-content;
+}
+#page2{
+   height:auto;
+}
+#page4{
+    max-height:fit-content;
+}
+#icon-1{
+    display:none;
+}
+#line{
+    margin-top:50%;
+}
+#btn {
+      position: fixed;
+      bottom: 20px;
+      left:20%;
+      right:20%;
+      z-index: 1000;
+      width: 60%;
+      text-align: center;
+}
+#Toggle{
+ right:20px;
+ font-size: 10px;
+}
+#home{
+    font-size:15px;
+    position:relative;
+}
+#about{
+    font-size:15px;
+    position:relative;
+}
+#services{
+    font-size:15px;
+    position:relative;
+}
+#contact-us{
+    font-size:15px;
+    position:relative;
+}
+#text-box{
+    margin-top: 60%;
+    font-size: 14px;
+}
+#welcome{
+    font-size: 25px;
+}
+#bg-motion{
+    margin-top:90%;
+   }
+ #illustrator{
+    margin-top:50%;
+    width:50%
+ }
+ #motion-bg1{
+    height:33%;
+    width:80%;
+}
+ #motion-bg2{
+    height:33%;
+    width:80%;
+}
+
+#motion-bg3{
+        height:33%;
+        width:80%;
+}
+#box-about h1{
+    font-size:15px;
+    margin-top:0;
+    position:relative;
+}
+#box-about p{
+    font-size:12px;
+    margin-top:10%;
+}
+
+#collection h1{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 3%;
+   }
+#collection-icon{
+    margin-left: 10%;
+    margin-top: 5%;
+    width:30%;
+   }
+   #eyewear{
+    font-size:15px;
+    color:white;
+     margin-left:12%;
+     margin-top: 8%;
+   }
+   #tops{
+    font-size:15px;
+    color:white;
+    margin-left:15%;
+    margin-top: 8%;
+   }
+   #outerwear{
+    font-size:15px;
+    color:white;
+    margin-left:12%;
+    margin-top: 8%;
+   }
+   #pants{
+    font-size:15px;
+    color:white;
+    margin-left:12%;
+    margin-top: 8%;
+   }
+   #socks{
+    font-size:15px;
+    color:white;
+    margin-left:12%;
+    margin-top: 8%;
+   }
+   #bags{
+    font-size:15px;
+    color:white;
+    margin-left:12%;
+    margin-top: 8%;
+   }
+   #customer-service{
+    font-size:15px;
+   }
+   #sizes p{
+    font-size:15px;
+   }
+   #returns p{
+    font-size:15px;
+   }
+   #terms p{
+   font-size:15px;
+   }
+   #sizes,#returns,#terms{
+    height:40%;
+   }
+   #customer-1 {
+    font-size:0.9rem;
+  }
+  #star{
+    margin-left:35%;
+    font-size:0.3rem;
+  }
+  #star2{
+    font-size:0.3rem;
+  }
+  #star3{
+    font-size:0.3rem;
+  }
+  #star4{
+    font-size:0.3rem;
+  }
+  #star5{
+    font-size:0.3rem;
+  }
+  #brand{
+    font-size:4rem;
+   }
+   #brand-name{
+    font-size:0.5rem;
+  }
+   #brand-name2{
+    color:#dda15e;
+    font-size:0.5rem;
+  }
+
+#connect-page{
+  padding-bottom:20%;
+}
+};
